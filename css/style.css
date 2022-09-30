@@ -1,0 +1,428 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+body{
+	font-family: "Lato";
+	font-weight: 400;
+	line-height: 160%;
+	color:#424551;
+}
+
+[class*="__container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+.top__block {
+	margin: 30px 0px 100px 0px;
+}
+.top__title {
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 130%;
+	/* margin-bottom: 40px; */
+	color:#1E212C;
+}
+.top__title:not(:last-child){
+	margin-bottom: 40px;
+
+}
+.top__text {
+	font-weight: 400;
+}
+.top__text:not(:last-child){
+	margin-bottom: 48px;
+}
+.top__list {
+}
+.top__list-title {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+	color: #1E212C;
+}
+.top__list-title:not(:last-child){
+	margin-bottom: 24px;
+
+}
+.top__body {
+}
+.top__link {
+	background-image: url(../img/icon/check.svg);
+	background-position: 0px 4px;
+	background-repeat: no-repeat;
+	padding-left: 32px;
+	margin-bottom: 4px;
+}
+.buttom__block {
+	margin-bottom: 100px;
+}
+.buttom__title-under {
+	font-weight: 700;
+	text-transform: uppercase;
+	color:#1E212C;
+	line-height: 150%;
+	letter-spacing: 1px;
+	margin-bottom: 8px;
+}
+.buttom__title {
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 130%;
+	margin-bottom: 40px;
+	color:#1E212C;
+	margin-bottom: 16px;
+	
+}
+.buttom__subtitle {
+	font-weight: 400;	
+	font-style: 20px;
+	color:#787A80;
+	margin-bottom: 32px;
+}
+.buttom__body {
+}
+.buttom__list{
+	margin-bottom: 32px;
+}
+.buttom__list li {
+	padding-left: 24px;
+	background-position: 0px 5px;
+	margin-bottom: 4px;
+}
+
+.buttom__link-1 {
+	background-image: url(../img/icon/Star\ \(Stroke\).svg);
+	background-repeat: no-repeat;
+	padding-left: 24px;
+}
+.buttom__link-2 {
+	background-image: url(../img/icon/Play.svg);
+	background-repeat: no-repeat;
+
+}
+.buttom__link-3 {
+	background-image: url(../img/icon/Profile.svg);
+	background-repeat: no-repeat;
+
+}
+.buttom__text {
+}
+/* ---------------------block__lesson--------------------- */
+.block__lesson{
+	height: 100px;
+	background-image: url(../img/pngtree-pink-flamingo-png-free-material-image_1134187.jpg);
+	margin-bottom: 100px;
+	background-size:contain;
+	}
+	.block__active {
+		text-align: center;
+		margin: 20px 0px;
+		font-size: 20px;
+	}
+	.block__active:hover .block__active-1{
+		opacity: 1;
+		visibility: visible;
+	}
+	.block__active .hover {
+		font-size: 30px;
+		text-transform: uppercase;
+		display: block;
+		margin-bottom: 30px;
+	}
+	.block__active p:hover{
+		background-color: #787A80;
+	}
+	
+	.hover:hover {
+		color:red;
+		text-decoration: underline;
+	}
+	
+	.block__active-1{
+		text-align: justify;
+		padding: 20px;
+		background-color: pink;
+		opacity: 0;
+		visibility: hidden;
+	}
+	.hover:active{
+		color:yellow;
+	}
+	.block__menu{
+		margin-bottom: 100px;
+		margin-left: 40px;
+	}
+	.block__menu a{
+		color:blueviolet;
+	}
+
+	.block__menu ul{
+		margin-left: 40px;
+		font-size: 30px;
+		text-transform: uppercase;
+		}
+	.block__menu li{
+		margin-bottom: 20px;
+	}
+	.block__menu ul ul{
+		display: none;
+	}
+	.block__menu ul li:hover ul{
+		display: block;
+	} 
+	/* .block__menu ul a:hover + ul{
+		display: block;
+	} */
+	.hover:focus{
+		outline: 0.5px solid pink;
+	}
+	.block__menu a:focus{
+		outline: 2px dotted palevioletred;
+	}
+	.block__target{
+		font-size: 20px;
+	}
+	.block__target a{
+		font-size: 50px;
+		margin-left: 40px;
+	}
+	.block__tim{
+		background-color:pink;
+		padding: 40px;
+		margin: 40px;
+		display: none;
+	}
+	.block__tim:target{
+		display: block;
+	} 
+/* ------------------------------------block__child---------- */
+.block__child{
+	padding:0px 40px;
+	font-size: 30px;
+	background-color: rgba(165, 85, 98, 0.267);
+}
+.block__child p{
+	margin-bottom: 30px;
+}
+.block__child p:first-child{
+	color:red;
+	}
+.block__child p:last-child{
+	color:blue;
+	}
+	.block__child p:nth-child(3){
+		background-color: yellowgreen;
+	}
+.block__child-1{
+	padding:0px 40px;
+	font-size: 30px;
+	background-color: rgba(21, 122, 72, 0.267);
+	}
+	.block__child-1 p{
+		margin-bottom: 30px;
+	}
+	.block__child-1 *:first-child{
+		color:red;
+	}
+	.div{
+		margin-bottom: 30px;
+	}
+	.block__child-1 p:first-of-type{
+		color:yellow;
+	}
+	.block__child-1 p:nth-child(4){
+		text-transform: uppercase;
+	}
+	.block__child-1 p:nth-child(even){
+		text-decoration: underline;
+	}
+	.block__child-1 p:last-of-type{
+		color:orange;
+	}
+	.block__child-1 div:last-of-type{
+		color:rgb(103, 90, 177);
+	}
+/* ----------------after-before------- */
+	.block__elements {
+		font-size: 30px;
+		margin: 50px 0px;
+	}
+	.block__span {
+		background-color: #93a1d8f3;
+	}
+	.block__span:not(:last-child){
+		margin-bottom: 30px;
+	}
+	.block__span::before{
+		content: "!";
+		
+	}
+	.block__div {
+		background-color:aqua ;
+	}
+	.block__div::after{
+		content: "+";
+	}
+	.block__div::before{
+		content: "+";
+	}
+	.block__list ul{
+		margin-left: 30px;
+	}
+
+	.block__list ul li:not(:last-child){
+	margin-bottom:20px ;	
+	}
+	.block__list ul li::before{
+		background: url('../img/icon/Play.svg') center no-repeat;
+		content: "";
+		display:inline-block;
+		width: 30px;
+		height: 30px;
+		margin-right: 10px;
+	}
+	.block__game {
+		margin:100px 0px;
+	}
+	.game__pitch {
+		background-color: #1433a18a;
+		width: 700px;
+		height: 500px;
+		margin: 0 auto;
+	}
+	.game__start{
+		text-align: center;
+		background-color: #787A80;
+		width: 100px;
+		height: 50px;
+		margin: 10px;
+		display: inline-block;
+		padding: 10px;
+	}
+	.game__start:hover{
+		background-color: palevioletred;
+		color:rgb(27, 25, 25);
+		font-size: 20px;
+		cursor: pointer;
+	}
+	.game__one {
+		margin-left: 110px;
+		margin-top: -55px;
+	}
+	.one {
+		background-color: #dd1d7d;
+		width: 450px;
+		height: 40px;
+		opacity: 0;
+		visibility: hidden;
+		display: inline-block;
+		}
+	.game__one:hover .one{
+		opacity: 1;
+		visibility: visible;
+		}
+	.game__two {
+		margin-top: -50px;
+		margin-left: 520px;
+		display: inline-block;	
+		}
+	.two {
+		background-color: #70073c;
+		width: 40px;
+		height: 220px;
+		opacity: 0;
+		visibility: hidden;
+		}
+	.game__two:hover .two{
+		opacity: 1;
+		visibility: visible;
+		}
+
+	.game__third {
+		margin-left: 160px;
+		margin-top: -65px;
+		display: inline-block;
+		}
+	.third {
+	background-color: #787A80;
+	width: 400px;
+	height: 40px;
+	opacity: 0;
+	visibility: hidden;
+	}
+	.game__third:hover .third{
+		opacity: 1;
+		visibility: visible;
+	}
+	.game__four {
+		margin-left: 160px;
+		margin-top: -40px;
+		display: inline-block;
+	}
+	.four {
+		background-color: #70073c;
+		width: 40px;
+		height: 200px;
+		opacity: 0;
+	   visibility: hidden;
+	}
+	.game__four:hover .four{
+		opacity: 1;
+		visibility: visible;
+	}
+	.game__finish {
+		margin-left: 120px;
+		margin-top: -18px;
+
+	}
+	.finish {
+		text-align: center;
+		background-color: #787A80;
+		width: 100px;
+		height: 50px;
+		margin: 10px;
+		display: inline-block;
+		padding: 10px;
+	}
+	.finish:hover{
+		background-color: palevioletred;
+		color:rgb(27, 25, 25);
+		font-size: 20px;
+		cursor: pointer;
+		
+	}
+	/* ----------------Peppa---------- */
+	
+	
+	.block__click a {
+		border: 5px solid pink;
+		border-radius: 20px;
+		text-decoration: none;
+		font-size: 40px;
+		margin-left: 20px;
+		padding: 10px;
+		background-color: rgba(226, 46, 76, 0.658);
+	}
+	.peppa {
+		display: none;
+	}
+	.peppa:target{
+		display: block;
+	}
+	.george{
+		display: none;
+	}
+	.george:target{
+		display: block;
+	}
+	.father{
+		display: none;
+	}
+	.father:target{
+		display: block;
+	}
+	.close{
+		display: none;
+	}
